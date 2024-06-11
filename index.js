@@ -33,7 +33,7 @@ convert.addEventListener("click", () => {
 
   length.textContent = `${amount.value} meters = ${metersToFeet} feet | ${amount.value} feet = ${feetToMeters} meters`;
 
-  volume.textContent = `${amount.value} liters = ${litersToGallons} gallons | ${amount.value} gallons = ${gallonsToLiters} meters`;
+  volume.textContent = `${amount.value} liters = ${litersToGallons} gallons | ${amount.value} gallons = ${gallonsToLiters} liters`;
 
   mass.textContent = `${amount.value} kilos = ${kgsToPounds} pounds | ${amount.value} pounds = ${poundsToKgs} kilos`;
 
