@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Metric & Imperial Conversion</title>
+    <meta
+      name="description"
+      content="Unit conversions between metric and imperial."
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="auther" content="Vincent Croos" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" type="image/svg+xml" href="ruler.svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <main>
+        <h1>Metric/Imperial Unit Conversion</h1>
+        <input type="number" aria-label="Enter name="amount"
+        value="1"id="amount" />
+        <button type="submit" value="submit" id="convert">CONVERT</button>
+      </main>
+      <section>
+        <div class="unit-containers">
+          <h2>Length (Meters/Feet)</h2>
+          <p id="length"></p>
+        </div>
+        <div class="unit-containers">
+          <h2>Volume (Liters/Gallons)</h2>
+          <p id="volume"></p>
+        </div>
+        <div class="unit-containers">
+          <h2>Mass (Kilograms/Pounds)</h2>
+          <p id="mass"></p>
+        </div>
+      </section>
+    </div>
+    <script src="index.js" async defer></script>
+  </body>
+</html>
