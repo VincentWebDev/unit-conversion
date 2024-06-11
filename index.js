@@ -36,8 +36,6 @@ convert.addEventListener("click", () => {
   volume.textContent = `${amount.value} liters = ${litersToGallons} gallons | ${amount.value} gallons = ${gallonsToLiters} liters`;
 
   mass.textContent = `${amount.value} kilos = ${kgsToPounds} pounds | ${amount.value} pounds = ${poundsToKgs} kilos`;
-
-  console.log(metersToFeet);
 });
 
 /*
