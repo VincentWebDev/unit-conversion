@@ -96,16 +96,14 @@ h1 {
 }
 
 /* disable scrollbar */
-/* input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-inner-spin-button,
 input[type="number"]::-webkit-outer-spin-button {
   -webkit-appearance: none;
   margin: 0;
-} */
+}
 
-@media only screen and (min-width: 768px) {
-  input[type="number"]::-webkit-inner-spin-button,
-  input[type="number"]::-webkit-outer-spin-button {
-    -webkit-appearance: none;
-    margin: 0;
+@media only screen and (min-width: 932px) {
+  #amount {
+    width: 200px;
   }
 }
