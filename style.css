@@ -102,7 +102,7 @@ input[type="number"]::-webkit-outer-spin-button {
   margin: 0;
 }
 
-@media only screen and (min-width: 932px) {
+@media only screen and (max-width: 932px) {
   #amount {
     width: 200px;
   }
